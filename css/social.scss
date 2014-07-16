@@ -1,0 +1,35 @@
+#social_widget {
+    a {
+        float: left;
+        margin-right: 5px;
+    }
+
+    .sw-social {
+        background-image: url("../images/social-inactive.png");
+        width: 35px;
+        height: 35px;
+    }
+
+    .sw-fb {
+        background-position: 0px 0px;
+    }
+
+    .sw-twitter {
+        background-position: -40px 0px;
+    }
+
+    .sw-pinterest {
+        background-position: -80px 0px;
+    }
+
+    .sw-gplus {
+        background-position: -120px 0px;
+    }
+
+    .sw-fb, .sw-gplus, .sw-pinterest, .sw-twitter {
+        &:hover {
+            cursor: pointer;
+            background-image: url("../images/social-active.png");
+        }
+    }
+}

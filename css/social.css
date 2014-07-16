@@ -1,0 +1,18 @@
+#social_widget a {
+  float: left;
+  margin-right: 5px; }
+#social_widget .sw-social {
+  background-image: url("../images/social-inactive.png");
+  width: 35px;
+  height: 35px; }
+#social_widget .sw-fb {
+  background-position: 0px 0px; }
+#social_widget .sw-twitter {
+  background-position: -40px 0px; }
+#social_widget .sw-pinterest {
+  background-position: -80px 0px; }
+#social_widget .sw-gplus {
+  background-position: -120px 0px; }
+#social_widget .sw-fb:hover, #social_widget .sw-gplus:hover, #social_widget .sw-pinterest:hover, #social_widget .sw-twitter:hover {
+  cursor: pointer;
+  background-image: url("../images/social-active.png"); }
